@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+}
+
+/* header css */
+header {
+    height: 60px;
+    width: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 25px;
+}
+
+/* home styling */
+.home {
+    height: 80vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    height: 40%;
+    width: 60%;
+    background-color: darkgray;
+    padding: 20px;
+}
+
+/* about css */
+.about {
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(194, 146, 84);
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about-heading {
+    color: rgb(77, 77, 212);
+}
+
+.left-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* projects section start */
+.projects{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(125, 182, 221);
+}
+.project-heading{
+    display: flex;
+    justify-content: center;
+}
+.row-one{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.row-two{
+    height: 40%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-1{
+    height: 80%;
+    width: 20%;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB5kUnOQ1_Ka4DNt8q5ku0o2oHlcKH-xAguw&s");
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 10px;
+    
+}
+.box-2{
+height: 80%;
+    width: 20%;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR23hVJDRwORZETPdBEX3aXkWXKwAW2wmWDlg&s");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.box-3{
+height: 100%;
+    width: 20%;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS17KBPizFZkxJlBlK2APMt1Ll2z3Ey5PsEQQ&s")
+    back
+
+}
+.box-4{
+height: 100%;
+    width: 20%;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-5{
+height: 100%;
+    width: 20%;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-6{
+height: 100%;
+    width: 20%;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-7{
+    height: 100%;
+    width: 20%;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-8{
+    height: 100%;
+    width: 20%;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* projects section end */
